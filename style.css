@@ -1,0 +1,93 @@
+#productos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 450px;
+    border: 2px solid black;
+    margin: 2px;
+    background-color: burlywood;
+    border-radius: 10px;
+    
+    
+}
+
+.producto img{
+    width: 120px;
+}
+
+#dynamicList {
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+
+}
+
+#dynamicList li{
+    margin: 20px;
+    color: black;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+h3{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+    color: black;
+    text-decoration: underline;
+}
+
+#deleteButton{
+    padding: 10px 20px;
+  background-color: burlywood;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 15px;
+  margin-left: 80px;  
+}
+
+.botonAñadir{
+    padding: 10px 20px;
+    background-color: rgb(199, 126, 97);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#carritoTotal{
+    font-size: 30px;
+    margin: 15px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline
+    
+}
