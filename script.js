@@ -96,6 +96,7 @@ function principal(productos){
         localStorage.removeItem("carrito")
         carrito = []
         carritoTotalDiv.innerText=0
+        carritoTotal=0
         renderCarrito()
     })
 
